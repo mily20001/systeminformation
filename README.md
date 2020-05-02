@@ -279,6 +279,7 @@ I also created a nice little command line tool called [mmon][mmon-github-url]  (
 | | ...[0].currentRefreshRate | X |  | X | X |  | current pixel vertical |
 | si.nvidiaDevices(cb) | [{...}] | X |  |  | X |  | array of nvidia gpus |
 | | ...[0].driverVersion | X |  |  | X |  | Nvidia driver version |
+| | ...[0].subDeviceId | X |  |  | X |  | GPU sub device id |
 | | ...[0].name | X |  |  | X |  | GPU name |
 | | ...[0].pciBus | X |  |  | X |  | GPU PCI address (domain:bus:device.function) |
 | | ...[0].fanSpeed | X |  |  | X |  | GPU fan speed [%] |
